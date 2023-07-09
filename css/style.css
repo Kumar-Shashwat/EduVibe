@@ -1764,3 +1764,15 @@ ol {
 .nav-size{
 	font-size:20rem;
 }
+
+.aboutUs{
+	position: relative;
+
+	top:10rem;
+	
+}
+
+.about-Welcome{
+	position:relative;
+	bottom:4rem;
+}
