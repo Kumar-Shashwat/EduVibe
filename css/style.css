@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
+	margin: 1rem;
 	font-weight: 600;
 	color: #474747;
 }
@@ -1767,9 +1767,8 @@ ol {
 }
 
 .aboutUs{
-	position: relative;
-
-	top:10rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	
 }
 
@@ -1785,5 +1784,32 @@ ol {
 
 .contact-footer{
 	position: relative;
-	top: 12rem;
+	top:12rem;
+}
+
+.sub-footer{
+	margin:1.5rem;
+}
+
+.footer-section{
+	padding-top : 0px;
+}
+
+.footer-bottom{
+	margin-top:0px;
+}
+
+.course-section{
+	/* padding-top :0px; */
+	padding-bottom :0px;
+}
+
+.aboutUs-cursor{
+	padding-top:0px;	
+	position: absolute;
+
+	top:13rem;
+	left:10rem;
+
+	
 }

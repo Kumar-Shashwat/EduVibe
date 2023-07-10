@@ -1199,6 +1199,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .row {
   padding-top: 40px;
+  
 }
 
 .pricing .box {
@@ -1873,3 +1874,5 @@ h2 {
   position:relative;
   left :6rem;
 }
+
+
