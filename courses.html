@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>WebUni - Education Template</title>
+	<title>YouVibe - Education Template</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
@@ -24,6 +24,79 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
+
+	<!-- asses template -->
+
+	 <!--  Google Fonts -->
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+	 <!-- Vendor CSS Files -->
+	 <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+	 <!-- 
+	 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	 <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	 <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	 <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+	 <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    -->
+	 <!-- Template Main CSS File -->
+	 <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+
+
+	 <!-- end of asses template -->
+
+
+
+	 <style>
+		.pricing-container {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  position: relative;
+		  top : 5rem;
+		}
+	
+		.pricing-plan {
+		  background-color: #f7f7f7;
+		  border-radius: 8px;
+		  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		  padding: 20px;
+		  margin: 10px;
+		  text-align: center;
+		}
+	
+		.pricing-plan h3 {
+		  font-size: 24px;
+		  margin-bottom: 10px;
+		}
+	
+		.pricing-plan p {
+		  font-size: 18px;
+		  margin-bottom: 20px;
+		}
+	
+		.pricing-plan .price {
+		  font-size: 30px;
+		  font-weight: bold;
+		  margin-bottom: 20px;
+		}
+	
+		.pricing-plan button {
+		  background-color: #d82a4e;
+		  color: #fff;
+		  border: none;
+		  padding: 10px 20px;
+		  border-radius: 4px;
+		  font-size: 16px;
+		  cursor: pointer;
+		}
+	
+		.pricing-plan button:hover {
+		  background-color: #d82a4e;
+		}
+
+	</style>
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -31,34 +104,35 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- Header section -->
-	<header class="header-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3">
-					<div class="site-logo">
-						<img src="img/logo.png" alt="">
-					</div>
-					<div class="nav-switch">
-						<i class="fa fa-bars"></i>
-					</div>
+<!-- Header section -->
+<header class="header-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3">
+				<div class="site-logo">
+					<img src="img/logo-nobg.png" alt="">
 				</div>
-				<div class="col-lg-9 col-md-9">
-					<a href="" class="site-btn header-btn">Login</a>
-					<nav class="main-menu">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About us</a></li>
-							<li><a href="courses.html">Courses</a></li>
-							<li><a href="blog.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
+				<!-- <div class="nav-switch">
+					<i class="fa fa-bars"></i>
+				</div> -->
+			</div>
+			<div class="col-lg-9 col-md-9 sub-head">
+				<!-- <a href="" class="site-btn header-btn">Login</a> -->
+				<nav class="main-menu">
+					<ul>
+						<li><a class = "nav-size" href="index.html">Home</a></li>
+						<li><a class = "nav-size" href="aboutUs.html">About us</a></li>
+						<li><a class = "nav-size" href="courses.html">Premium</a></li>
+						<li><a class = "nav-size" href="blog.html">Demopage</a></li>
+						<li><a class = "nav-size" href="contact.html">Tutor</a></li>
+						<li><a class = "nav-size " href="contact.html">Get started </a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-	</header>
-	<!-- Header section end -->
+	</div>
+</header>
+<!-- Header section end -->
 
 
 	<!-- Page info -->
@@ -66,7 +140,7 @@
 		<div class="container">
 			<div class="site-breadcrumb">
 				<a href="#">Home</a>
-				<span>Courses</span>
+				<span>Premium</span>
 			</div>
 		</div>
 	</div>
@@ -78,7 +152,7 @@
 		<div class="container">
 			<div class="search-warp">
 				<div class="section-title text-white">
-					<h2><span>Search your course</span></h2>
+					<h2><span>Search the best plan for you</span></h2>
 				</div>
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
@@ -86,7 +160,7 @@
 						<form class="course-search-form">
 							<input type="text" placeholder="Course">
 							<input type="text" class="last-m" placeholder="Category">
-							<button class="site-btn btn-dark">Search Couse</button>
+							<button class="site-btn btn-dark">Search Premium</button>
 						</form>
 					</div>
 				</div>
@@ -96,9 +170,99 @@
 	<!-- search section end -->
 
 
+	<!--==== Pricing section ===== -->
+	<!-- <section id="pricing" class="pricing">
+		<div class="container" data-aos="fade-up">
+  
+		  <div class="section-title">
+			<h2>Pricing</h2>
+			<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		  </div>
+  
+		  <div class="row">
+  
+			<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+			  <div class="box">
+				<h3>Free Plan</h3>
+				<h4><sup>$</sup>0<span>per month</span></h4>
+				<ul>
+				  <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				  <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				  <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				  <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+				  <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+			  <div class="box featured">
+				<h3>Business Plan</h3>
+				<h4><sup>$</sup>29<span>per month</span></h4>
+				<ul>
+				  <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				  <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				  <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				  <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+				  <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			  </div>
+			</div>
+  
+			<div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+			  <div class="box">
+				<h3>Developer Plan</h3>
+				<h4><sup>$</sup>49<span>per month</span></h4>
+				<ul>
+				  <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+				  <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+				  <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+				  <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+				  <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+				</ul>
+				<a href="#" class="buy-btn">Get Started</a>
+			  </div>
+			</div>
+  
+		  </div>
+  
+		</div>
+	  </section> -->
+
+
+
+	  <div class="pricing-container">
+		<div class="pricing-plan">
+		  <h3>Basic Plan</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  
+		  <div class="price">$9.99/month</div>
+		  <button>Select Plan</button>
+		</div>
+		<div class="pricing-plan">
+		  <h3>Standard Plan</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  <div class="price">$19.99/month</div>
+		  <button>Select Plan</button>
+		</div>
+		<div class="pricing-plan">
+		  <h3>Premium Plan</h3>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  <div class="price">$29.99/month</div>
+		  <button>Select Plan</button>
+		</div>
+	  </div>
+
+
+	  <!--Pricing section Ends-->
+
 	<!-- course section -->
-	<section class="course-section spad pb-0">
+	<section  class="course-section spad pb-0">
 		<div class="course-warp">
+
+			<div style="display: none;">
 			<ul class="course-filter controls">
 				<li class="control active" data-filter="all">All</li>
 				<li class="control" data-filter=".finance">Finance</li>
@@ -240,6 +404,9 @@
 						</div>
 					</div>
 				</div>
+			
+				</div>
+
 				<!-- course -->
 				<div class="mix col-lg-3 col-md-4 col-sm-6 photo">
 					<div class="course-item">
