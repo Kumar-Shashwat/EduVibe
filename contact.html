@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>WebUni - Education Template</title>
+	<title>YouVibe - Education Template</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
@@ -24,6 +24,72 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+		body {
+		  font-family: Arial, sans-serif;
+		  background-color: #f7f7f7;
+		  margin: 0;
+		  padding: 20px;
+		}
+	
+		.teacher-container {
+		  margin-top : 5rem;
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		}
+	
+		.tutor-card {
+		  width: 300px;
+		  background-color: #fff;
+		  border-radius: 8px;
+		  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		  margin: 10px;
+		  padding: 20px;
+		  text-align: center;
+		}
+	
+		.tutor-card img {
+		  width: 150px;
+		  /* border-radius: ; */
+		  margin-bottom: 10px;
+		}
+	
+		.tutor-card h3 {
+		  font-size: 20px;
+		  margin-bottom: 5px;
+		}
+	
+		.tutor-card p {
+		  font-size: 16px;
+		  margin-bottom: 10px;
+		}
+	
+		.tutor-card .profession {
+		  font-weight: bold;
+		  color: #555;
+		  margin-bottom: 10px;
+		}
+	
+		.tutor-card .experience {
+		  font-style: italic;
+		  color: #777;
+		  margin-bottom: 20px;
+		}
+	
+		/* Responsive styles */
+		@media (max-width: 768px) {
+		  .tutor-card {
+			width: 100%;
+			max-width: 400px;
+		  }
+		}
+
+		.set-bg{
+			height:20rem;
+		}
+	  </style>
+
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -37,21 +103,22 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3">
 					<div class="site-logo">
-						<img src="img/logo.png" alt="">
+						<img src="img/logo-nobg.png" alt="">
 					</div>
-					<div class="nav-switch">
+					<!-- <div class="nav-switch">
 						<i class="fa fa-bars"></i>
-					</div>
+					</div> -->
 				</div>
-				<div class="col-lg-9 col-md-9">
-					<a href="" class="site-btn header-btn">Login</a>
+				<div class="col-lg-9 col-md-9 sub-head">
+					<!-- <a href="" class="site-btn header-btn">Login</a> -->
 					<nav class="main-menu">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About us</a></li>
-							<li><a href="courses.html">Courses</a></li>
-							<li><a href="blog.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a class = "nav-size" href="index.html">Home</a></li>
+							<li><a class = "nav-size" href="aboutUs.html">About us</a></li>
+							<li><a class = "nav-size" href="courses.html">Premium</a></li>
+							<li><a class = "nav-size" href="blog.html"> Demopage</a></li>
+							<li><a class = "nav-size" href="contact.html">Tutor</a></li>
+							<li><a class = "nav-size " href="contact.html">Get started </a></li>
 						</ul>
 					</nav>
 				</div>
@@ -66,15 +133,74 @@
 		<div class="container">
 			<div class="site-breadcrumb">
 				<a href="#">Home</a>
-				<span>Contact</span>
+				<span>Tutor</span>
 			</div>
 		</div>
 	</div>
 	<!-- Page info end -->
 
+	<div class="teacher-container">
+		<div class="tutor-card">
+		  <img src="img/teacher1.avif" alt="Teacher 1">
+		  <h3>John Smith</h3>
+		  <p class="profession">Mathematics Tutor</p>
+		  <p class="experience">10+ years of experience</p>
+		</div>
+	
+		<div class="tutor-card">
+		  <img src="img/teacher2.avif" alt="Teacher 2">
+		  <h3>Jane Doe</h3>
+		  <p class="profession">English Tutor</p>
+		  <p class="experience">8+ years of experience</p>
+		</div>
+	
+		<div class="tutor-card">
+		  <img src="img/teacher3.avif" alt="Teacher 3">
+		  <h3>Michael Johnson</h3>
+		  <p class="profession">Science Tutor</p>
+		  <p class="experience">6+ years of experience</p>
+		</div>
+	
+		<div class="tutor-card">
+		  <img src="img/teacher4.avif" alt="Teacher 4">
+		  <h3>Sarah Thompson</h3>
+		  <p class="profession">History Tutor</p>
+		  <p class="experience">5+ years of experience</p>
+		</div>
+	
+		<div class="tutor-card">
+		  <img src="img/teacher5.avif" alt="Teacher 5">
+		  <h3>Robert Anderson</h3>
+		  <p class="profession">Physics Tutor</p>
+		  <p class="experience">7+ years of experience</p>
+		</div>
+	
+		<div class="tutor-card">
+		  <img src="img/teacher6.avif" alt="Teacher 6">
+		  <h3>Emily Davis</h3>
+		  <p class="profession">French Tutor</p>
+		  <p class="experience">4+ years of experience</p>
+		</div>
+
+		<div class="tutor-card">
+			<img src="img/teacher7.avif" alt="Teacher 6">
+			<h3>Emily Davis</h3>
+			<p class="profession">General Science Tutor</p>
+			<p class="experience">4+ years of experience</p>
+		  </div>
+
+		  <div class="tutor-card">
+			<img src="img/teacher8.avif" alt="Teacher 6">
+			<h3>Emily Davis</h3>
+			<p class="profession">Mathematics Tutor</p>
+			<p class="experience">4+ years of experience</p>
+		  </div>
+
+	  </div>
+
 
 	<!-- search section -->
-	<section class="search-section ss-other-page">
+	<!-- <section class="search-section ss-other-page">
 		<div class="container">
 			<div class="search-warp">
 				<div class="section-title text-white">
@@ -82,7 +208,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
-						<!-- search form -->
+						<!-- search form 
 						<form class="course-search-form">
 							<input type="text" placeholder="Course">
 							<input type="text" class="last-m" placeholder="Category">
@@ -92,13 +218,13 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- search section end -->
 
 
 
 	<!-- Page -->
-	<section class="contact-page spad pb-0">
+	<!-- <section class="contact-page spad pb-0">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
@@ -144,7 +270,7 @@
 			</div>
 			<div id="map-canvas"></div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Page end -->
 
 

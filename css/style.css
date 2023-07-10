@@ -703,6 +703,7 @@ ol {
 
 .footer-section {
 	border-top: 3px solid #d82a4e;
+	/* padding-top:2rem; */
 }
 
 .footer-warp {
@@ -1775,4 +1776,14 @@ ol {
 .about-Welcome{
 	position:relative;
 	bottom:4rem;
+}
+
+.footer-box{	
+	display: flex;
+  flex-wrap: nowrap;
+}
+
+.contact-footer{
+	position: relative;
+	top: 12rem;
 }
